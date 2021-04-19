@@ -5,3 +5,6 @@
 /glove.6B
 /__pycache__
 *__pycache__*
+./notebook/stance
+./notebook/runs
+./notebook/self-attention.ipynb

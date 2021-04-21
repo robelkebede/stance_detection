@@ -48,7 +48,6 @@ if __name__ == "__main__":
     dataloader = DataLoader()
     head,stance,body = dataloader.dataset()
 
-    print(X:=[i for i in body])
 
 
 

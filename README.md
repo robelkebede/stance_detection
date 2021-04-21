@@ -17,6 +17,10 @@ This is also a part of fake news detection competition
 
 run ./notebook/Stance Detaction.ipynb
 
+## Docker
+
+docker build -t stance .
+docker run -p 8888:8888 stance
 
 ## References
 

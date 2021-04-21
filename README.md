@@ -18,7 +18,7 @@ This is also a part of fake news detection competition
 run ./notebook/Stance Detaction.ipynb
 
 
-## Referances
+## References
 
 [1] https://arxiv.org/pdf/1701.00504 <br>
 [2] https://lilianweng.github.io/lil-log/2018/06/24/attention-attention.html

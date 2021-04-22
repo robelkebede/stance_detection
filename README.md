@@ -19,8 +19,8 @@ run ./notebook/Stance Detaction.ipynb
 
 ## Docker
 
-docker build -t stance .
-docker run -p 8888:8888 stance
+docker build -t stance . <br>
+docker run -p 8888:8888 stance (notebook)
 
 ## References
 

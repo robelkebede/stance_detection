@@ -9,11 +9,14 @@ This is also a part of fake news detection competition
 
 ## Installation 
 
+wget http://nlp.stanford.edu/data/glove.6B.zip
+
 ```bash 
    pip install -r requirements.txt
 ```
 
 ## Usage
+
 
 run ./notebook/Stance Detaction.ipynb
 
@@ -22,7 +25,3 @@ run ./notebook/Stance Detaction.ipynb
 docker build -t stance . <br>
 docker run -p 8888:8888 stance (notebook)
 
-## References
-
-[1] https://arxiv.org/pdf/1701.00504 <br>
-[2] https://lilianweng.github.io/lil-log/2018/06/24/attention-attention.html

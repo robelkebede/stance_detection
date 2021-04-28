@@ -115,6 +115,7 @@ creatrion = nn.CrossEntropyLoss()
 optimizer = torch.optim.Adam(net.parameters())
 
 
+
 class dataset(torch.utils.data.Dataset):
     def __init__(self):
         

@@ -115,6 +115,11 @@ creatrion = nn.CrossEntropyLoss()
 optimizer = torch.optim.Adam(net.parameters())
 
 
+torch.save(net,"stance.h5")
+
+
+exit()
+
 class dataset(torch.utils.data.Dataset):
     def __init__(self):
         

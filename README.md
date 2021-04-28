@@ -7,11 +7,17 @@ the neural network have 2 self attention layers relating different positions of 
 pass through the self-attention layers the output of the attention representation will be concatenated and feed it to a fully-connected layer <br>
 This is also a part of fake news detection competition 
 
+
+## Architecture 
+
+<!-- ![alt text](./neural_net.png ) -->
+<img src="./neural_net.png" width="500" height="500">
+
 ## Installation 
 
-wget http://nlp.stanford.edu/data/glove.6B.zip
 
 ```bash 
+   wget http://nlp.stanford.edu/data/glove.6B.zip
    pip install -r requirements.txt
 ```
 
@@ -23,5 +29,7 @@ run ./notebook/Stance Detaction.ipynb
 ## Docker
 
 docker build -t stance . <br>
-docker run -p 8888:8888 stance (notebook)
+docker run -p 8888:8888 stance 
 
+
+## Contributions
